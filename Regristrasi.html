@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="3" align="center"><h3>FORM REGRISTRASI</h3></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td colspan="2">
+                    <input type="text" name="NIM" id="NIM">
+                    <label for="NIM"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td colspan="2">
+                    <input type="text" name="Nama" id="Nama">
+                    <label for="Nama"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td colspan="2">
+                    <input type="radio" name="jk" id="Laki-Laki">
+                    <label for="Laki-Laki">Laki-Laki</label>
+                    <input type="radio" name="jk" id="Perempuan">
+                    <label for="Perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Asal</td>
+                <td>:</td>
+                <td colspan="2">
+                    <select name="Kota" id="Asal">
+                        <option value="Yogyakarta">Yogyakarta</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Bandung">Bandung</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>No Telpn</td>
+                <td>:</td>
+                <td colspan="2">
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat Email</td>
+                <td>:</td>
+                <td colspan="2">
+                    <input type="email" name="email" id="email">
+                    <label for="email"></label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3">Hoby</td>
+                <td rowspan="3">:</td>
+                <td>
+                        <input type="checkbox" value="SepakBola">
+                        <label for="SepakBola">SepakBola</label>
+                </td>   
+                <td>
+                        <input type="checkbox" value="Membaca">
+                        <label for="Membaca">Membaca</label><br>
+                </td>        
+            </tr>
+            <tr>
+                <td>
+                        <input type="checkbox" value="Futsal">
+                        <label for="Futsal">Futsal</label>
+                </td>
+                <td>
+                        <input type="checkbox" value="Jogging">
+                        <label for="Jogging">Jogging</label><br>
+                </td>        
+            </tr>
+            <tr>            
+                <td>
+                        <input type="checkbox" value="Berenang">
+                        <label for="Berenang">Berenang</label>
+                </td>        
+                <td>
+                        <input type="checkbox" value="Gowes">
+                        <label for="Gowes">Gowes</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Deskripsi DIri</td>
+                <td>:</td>
+                <td colspan="2">
+                    <textarea name="Deskripsi" id="Deskripsi" cols="50" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    <input type="reset" value="Batal">
+                    <input type="submit" value="OK">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
